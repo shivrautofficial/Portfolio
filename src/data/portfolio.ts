@@ -29,7 +29,7 @@ export type Achievement = {
 
 /**
  * Keep personal details and portfolio content here. Add a portrait to
- * public/profile-photo.jpg and set photoUrl to "/profile-photo.jpg" when ready.
+ * Keep the portrait in public/ and set photoUrl to its root-relative URL.
  */
 export const profile = {
   name: 'Shiv Raut',
@@ -52,7 +52,7 @@ export const profile = {
   handle: '@shivrautofficial',
   resumeUrl:
     'https://drive.google.com/file/d/1A95WbPx22WsItlonWYo_LvAhkWeNavGl/view?usp=sharing',
-  photoUrl: '',
+  photoUrl: '/profile_pic.png',
   location: 'Somewhere in India',
   interests: ['Robotics', 'Cybersecurity', 'AI'],
   goals: ['Internships', 'Robotics', 'AI', 'Open source', 'Hackathons'],
